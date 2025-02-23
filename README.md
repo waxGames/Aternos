@@ -2,17 +2,20 @@
 
 ### 🚀 **Developed by Silver Team**
 
-This project is a CMD-based control panel that allows you to easily add and manage Minecraft bots on Aternos servers. It is designed for simplicity and to automate your Minecraft server management.
+This project is a CMD-based control panel that allows users to run two separate `.exe` applications for managing Minecraft bots. These `.exe` files do not communicate with any server and are designed to operate independently. Additionally, one main `.exe` file can launch both applications, providing a seamless user experience.
+
+The applications are fully compiled with no accessible source code and are available for public use under the MIT License.
 
 ---
 
 ## 📂 Features
 
-- ⚡ **Easy Bot Connection:** Connect bots to your Aternos server with just a few commands.
-- 🖥️ **CMD-Based Panel:** Easy control via command line.
-- 🤖 **AFK Bot Support:** Keep bots online continuously.
-- 🎮 **Manage Multiple Bots:** Add and remove multiple bots simultaneously.
-- 🔒 **Secure Login:** Supports TLauncher and premium accounts.
+- ⚡ **Standalone Applications:** Two independent `.exe` files that do not require server connections.
+- 🖥️ **Centralized Control:** One main `.exe` can run both applications simultaneously.
+- 🎮 **User-Friendly Interface:** Easy-to-use CMD-based control panel.
+- 🤖 **AFK Bot Support:** Keep bots online without interruptions.
+- 🔒 **Secure Execution:** Fully compiled with no exposed code.
+- 🌐 **Publicly Accessible:** Available for everyone under the MIT License.
 
 ---
 
@@ -20,90 +23,73 @@ This project is a CMD-based control panel that allows you to easily add and mana
 
 ### 1️⃣ **Requirements**
 
-- Node.js (v20.15.0 recommended)
-- Git
+- Windows OS
 - Minecraft (version 1.16.5 recommended)
-- Aternos account
+- No additional installations required
 
-### 2️⃣ **Clone the Project**
+### 2️⃣ **Download the Applications**
 
+1. Download the following `.exe` files:
+   - `MainLauncher.exe`
+   - `BotManager.exe`
+   - `BotController.exe`
+
+2. Place all files in the same directory.
+
+### 3️⃣ **Run the Applications**
+
+To start all components at once:
 ```bash
-git clone https://github.com/SilverTeam/Aternos-Minecraft-Bot-Panel.git
-cd Aternos-Minecraft-Bot-Panel
+MainLauncher.exe
 ```
 
-### 3️⃣ **Install Dependencies**
-
+To run each application separately:
 ```bash
-npm install
-```
-
-### 4️⃣ **Start the Bot**
-
-```bash
-node index.js
+BotManager.exe
+BotController.exe
 ```
 
 ---
 
 ## 🎬 Usage
 
-### 🔑 **Connect a Bot**
-```bash
-connect <bot_name> <server_address>
-```
+### 🔑 **Start Bot Manager**
+Run `BotManager.exe` to manage bot creation and deletion.
 
-### 🔌 **Disconnect a Bot**
-```bash
-disconnect <bot_name>
-```
+### 🔌 **Control Bots**
+Use `BotController.exe` to start, stop, and monitor bot activities.
 
-### 💾 **View Connected Bots**
-```bash
-list
-```
-
-### 🔄 **Restart a Bot**
-```bash
-restart <bot_name>
-```
+### 💾 **All-in-One Launch**
+Use `MainLauncher.exe` to open and control both applications simultaneously.
 
 ---
 
 ## 🖼️ Screenshots
 
-![Panel View](assets/panel-gorunum.png)
+![Main Launcher Interface](assets/main-launcher.png)
 
-![Bot Connection](assets/bot-baglantisi.png)
+![Bot Manager Window](assets/bot-manager.png)
+
+![Bot Controller Interface](assets/bot-controller.png)
 
 ---
 
 ## 🎥 Videos
 
-[![Bot Panel Introduction Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID "Bot Panel Introduction")
+[![Bot Panel Demonstration](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID "Bot Panel Demonstration")
 
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
 
-### 🔒 **Can I log in using a TLauncher account?**
-Yes! TLauncher support is available.
+### 🔒 **Does the application require internet access?**
+No. The `.exe` files work offline and do not connect to any server.
 
-### 🏃 **Why does the bot get disconnected from the server?**
-- Bots will automatically reconnect when the server restarts.
-- If bots still get disconnected, check your Aternos server settings.
+### 🏃 **Can I use the applications separately?**
+Yes. Each `.exe` file can be run independently or together using `MainLauncher.exe`.
 
-### ⏳ **How can I ensure the bot stays online continuously?**
-Use the AFK bot feature to keep bots active on the server at all times.
-
----
-
-## 🤝 Contribute
-
-1. Fork the repository 🍴
-2. Create a new branch 🌿
-3. Make your changes 🛠️
-4. Submit a Pull Request 🚀
+### ⏳ **Is the source code available?**
+No. The applications are distributed as compiled `.exe` files without exposed code.
 
 ---
 
@@ -119,5 +105,5 @@ This project is licensed under the MIT License by **Silver Team**. For more deta
 - 💬 Discord: [Silver Team Server](https://discord.gg/silverteam)
 - 🌐 Website: [silverteam.dev](https://silverteam.dev)
 
-> 💡 **Silver Team:** Follow us for more in the world of Minecraft and Aternos!
+> 💡 **Silver Team:** Providing accessible solutions for Minecraft enthusiasts worldwide!
 
