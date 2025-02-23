@@ -2,7 +2,7 @@
 
 ### 🚀 **Developed by Silver Team**
 
-This project is a CMD-based control panel that allows users to run two separate `.exe` applications for managing Minecraft bots. These `.exe` files do not communicate with any server and are designed to operate independently. Additionally, one main `.exe` file can launch both applications, providing a seamless user experience.
+This project is a **console-based control panel** that allows users to run two separate `.exe` applications for managing Minecraft bots. These `.exe` files do not communicate with any server and are designed to operate independently. Additionally, one main `.exe` file can launch both applications, providing a seamless user experience.
 
 The applications are fully compiled with no accessible source code and are available for public use under the MIT License.
 
@@ -12,7 +12,7 @@ The applications are fully compiled with no accessible source code and are avail
 
 - ⚡ **Standalone Applications:** Two independent `.exe` files that do not require server connections.
 - 🖥️ **Centralized Control:** One main `.exe` can run both applications simultaneously.
-- 🎮 **User-Friendly Interface:** Easy-to-use CMD-based control panel.
+- 🎮 **User-Friendly Interface:** Easy-to-use **console-based** control panel.
 - 🤖 **AFK Bot Support:** Keep bots online without interruptions.
 - 🔒 **Secure Execution:** Fully compiled with no exposed code.
 - 🌐 **Publicly Accessible:** Available for everyone under the MIT License.
